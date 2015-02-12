@@ -10,8 +10,9 @@ group :development do
 
 
 group :production do
-		gem 'pg'
-	end
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 gem 'carrierwave'
 # Use SCSS for stylesheets
